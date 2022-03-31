@@ -5,31 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicon Image-->
+    <!-- favicon image-->
     <link rel="icon" type="image/x-icon" href="/assets/image/gallery/Logo1.png">
-    <!-- Owl Carousel -->
+    <!-- font awesome 6 -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- boostrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- owl carousel -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <!-- Remixicon -->
-    <link rel="stylesheet" href="assets/remixicon/remixicon.css">
-    <!-- Font Awesome 6 -->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!-- Boostrap css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!-- Stylesheet -->
+    <!-- stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-
     <title>E-HealthBD</title>
 </head>
 
 <body>
-    <!-- ======= Top Bar ======= -->
-    <header class="container-fluid fixed-top bg-white ">
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/image/gallery/Logo1.png">
+                    <img src="assets/image/gallery/logo1.png" alt="image">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -55,7 +50,7 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <div class="btn-group ms-1">
+                        <div class="btn-group">
                             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Eng/বাংলা
@@ -77,15 +72,14 @@
                             </ul>
                         </div>
                         <div class="ms-1">
-                            <button type="button" class="btn btn-success">
-                                <a href="login.html" class="text-white text-decoration-none">Login</a>
-                            </button>
+                            <a href="login.html" class="btn btn-success text-white text-decoration-none">Login</a>
                         </div>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- top bar end -->
 
     <!-- Top Bar End -->
     <div class="container-fulid login_section">
@@ -96,7 +90,7 @@
                     <div class="mb-4 InputWithIcon">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" required placeholder="Enter your e-mail"
-                            id="exampleInputEmail1" aria-describedby="emailHelp">
+                            id="exampleInputEmail1">
                     </div>
                     <div class="mb-4">
                         <div class="forgotpassword">
@@ -120,6 +114,7 @@
     </div>
 
     <!-- ======= Footer ======= -->
+    <!-- ======= footer ======= -->
     <footer id="footer">
         <div class="container footer-top">
             <div class="row">
@@ -136,23 +131,23 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Departments</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Pediatric</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Laboratory</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Odontology</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Physiotherapy</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Ophthalmology</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Cynecology</a></li>
+                        <li><a href="#">Pediatric</a></li>
+                        <li><a href="#">Laboratory</a></li>
+                        <li><a href="#">Odontology</a></li>
+                        <li><a href="#">Physiotherapy</a></li>
+                        <li><a href="#">Ophthalmology</a></li>
+                        <li><a href="#">Cynecology</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">How We Are</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms & Conditions</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Our Awards</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Testimonials</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Our Professionals</a></li>
+                        <li><a href="#">How We Are</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Our Awards</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Our Professionals</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6 footer-newsletter">
@@ -179,13 +174,13 @@
                             <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
-                            <td>Friday:</th>
+                            <td>Friday:</td>
                             <td>09:00 - 19:00</td>
                         </tr>
                     </table>
-                    <form action="" method="post">
+                    <form action="post" method="post">
                         <input type="email" name="email">
-                        <tainput type="submit" value="Subscribe">
+                        <input type="submit" value="Subscribe">
                     </form>
                 </div>
                 <div class="col-6 p-1">
@@ -193,29 +188,28 @@
                 </div>
                 <div class="col-6 p-1 footer_icon">
                     <div class="float-end social">
-                        <a href="#"><i class="ri-facebook-fill"></i></a>
-                        <a href="#"><i class="ri-twitter-fill"></i></a>
-                        <a href="#"><i class="ri-mail-line"></i></a>
-                        <a href="#"> <i class="ri-linkedin-box-fill"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
         </div>
 
     </footer>
-    <!-- End Footer -->
+    <!-- end Footer -->
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
-    <!-- Stylesheet Js -->
-    <link rel="stylesheet" href="assets/js/style.js">
-    <!-- Owl Carousel JS -->
-    <link rel="stylesheet" href="assets/js/jquery.min.js">
-    <link rel="stylesheet" href="assets/js/owl.carousel.min.js">
-    <!-- Bootstrap Js -->
+
+    <!-- owl carousel js -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- bootstrap js -->
     <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Purecounter Js -->
+    <!-- purecounter js -->
     <script src="assets/js/purecounter.js"></script>
 </body>
 
